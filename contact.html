@@ -1,0 +1,71 @@
+</—Path of Light Yoga Studio
+       Author: Matthew Young
+       Date: 03/31/2019
+
+-->
+
+<!DOCTYPE html>
+
+<html> 
+<title> Path of Light Yoga Studio: Contact</title>
+<link rel="stylesheet" href="yoga.css">
+
+<meta name= "viewport"
+ content= "width=device-width, initial-scale=1.0"> 
+  
+<body>
+<div id="wrapper">
+<header>
+<h1> Path of Light Yoga Studio Contact Form </h1>
+</header>
+
+<nav>
+     <ul>
+      <li><a href="yogaindex.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li> 
+      <li><a href="schedule.html">Schedule</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  </ul>
+</nav>
+
+<main>
+
+<h2>Contact the Path of Light Yoga Studio</h2>
+
+<p> Required information is marked with an *</p>
+
+ <form method="post" action=" http://webdevbasics.net/scripts/yoga.php">
+ 
+ <label for="myName">*Name: </label>
+<input type="text" name="myName" id="myName" required="required">
+ 
+ <label for="myEmail">*E-mail: </label>
+<input type="email" name="myEmail" id="myEmail" required="required">
+
+<label for="myHow">How did you hear about us?</label>
+<input type="text" name="myHow" id="myHow" list="myHow">
+<datalist id="myHow">
+<option>Google</option>
+<option>Bing</option>
+<option>Facebook</option>
+<option>Friend</option>
+<option>Radio Ad</option>
+
+</datalist>
+ 
+ <label for="myComments">*Comments: </label>
+<textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+ 
+ <input type="submit" value="Send Now.">
+ 
+ </form>
+ 
+<footer>
+Copyright © 2018 Path of Light Yoga Studio
+</footer>
+
+</-- The rest was pretty easy to grasp, I had a lot of fun with this!
+-->
+</div>
+</body>
+</html>
